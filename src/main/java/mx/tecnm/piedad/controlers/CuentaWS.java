@@ -22,7 +22,7 @@ import mx.tecnm.piedad.models.Plan;
 @RestController
 @RequestMapping("/api/cuentas")
 @CrossOrigin(origins = "*", methods= {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE, RequestMethod.PATCH})
-/*Cambio de Sha*/
+
 public class CuentaWS {
 
 	@Autowired
